@@ -14,16 +14,20 @@
     processar(42, callback);
 
 // EXERCICI 2
-    // Ús amb operadors de comparació:
-    // Escriu una expressió que utilitzi l'operador ternari per determinar quin dels dos nombres donats (num1 i num2) és més gran.
-    // Si num1 és més gran, retorna 'num1 és més gran'. Si no, retorna 'num2 és més gran'.
+    // Callbacks amb operacions matemàtiques:
+    // Escriu una funció calculadora que accepti tres paràmetres: dos nombres i una funció de callback.
+    // La funció calculadora ha d'invocar la funció de callback amb els dos nombres com a paràmetres.
+    // Després, crida calculadora amb una funció que faci la suma dels dos nombres.
 
-    let num1 = 10;
-    let num2 = 5;
+    const calculadora = (nombre1, nombre2, callback) => {
+        return callback(nombre1, nombre2);
+        };
 
-    let result2 = num1 > num2 ? `num1 (${num1}) és més gran que num2 (${num2})` : `num2 (${num2}) és més gran que num1 (${num1})`;
+    const sumar = (a, b) => a + b;
 
-    console.log(`Quin número es el més gran?: ${result2}`);
+    let result2 = calculadora(15, 27, sumar);
+    console.log(`La suma és: ${result2}`);
+
 
 
 // EXERCICI 3
