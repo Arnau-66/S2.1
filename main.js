@@ -3,9 +3,9 @@
     // Escriu una funció potConduir que accepti l'edat com a paràmetre i utilitzi l'operador ternari per determinar si l'usuari pot conduir.
     // Si l'edat és 18 o més, ha de retornar 'Pots conduir'. Si no, ha de retornar 'No pots conduir'.
 
-    const potConduir = (edat) => {
-    return edat >= 18 ? 'Pots conduir' : 'No pots conduir';
-    };
+    const potConduir = (age) => {
+        return age >= 18 ? 'Pots conduir' : 'No pots conduir';
+        };
 
     console.log(`Edat 20 anys: ${potConduir(20)}`);
     console.log(`Edat 20 anys: ${potConduir(16)}`); 
@@ -18,28 +18,31 @@
     let num1 = 10;
     let num2 = 5;
 
-    let resultat = num1 > num2 ? 'num1 és més gran' : 'num2 és més gran';
+    let result2 = num1 > num2 ? 'num1 és més gran' : 'num2 és més gran';
 
-    console.log(`Quin número es el més gran?: ${resultat}`);
+    console.log(`Quin número es el més gran?: ${result2}`);
 
 
 // EXERCICI 3
-    // Ús de 'this' en les funcions de fletxa:
-    // Crea una classe person que tingui una propietat name i una funció greet que utilitzi una funció de fletxa.
-    // La funció ha d'imprimir una salutació que inclogui el nom de la persona. Per exemple: console.log(Hola, ${this.name});.
+    // Ús enllaçat d'operadors ternaris:
+    // Escriu una expressió que utilitzi enllaços d'operadors ternaris per determinar si un número és positiu, negatiu o zero.
+    // Operador ternari amb funcions:
+    // Crea una funció trobarMaxim que accepti tres paràmetres (a, b, c) i utilitzi l'operador ternari per determinar el valor màxim.
 
-    class Person {
-    constructor(name) {
-        this.name = name;
-    }
 
-    greet = () => {
-        console.log(`Hola, ${this.name}`);
-    }
-    }
+    let num = -5;
 
-    const person1 = new Person("Arnau");
-    person1.greet();
+    let result3 = num > 0 ? 'positiu' : num < 0 ? 'negatiu' : 'zero';
+
+    console.log(`El número (-5) es: ${result3}`);
+
+    const trobarMaxim = (a, b, c) => {
+            let maxAB = a > b ? a : b;
+            let maxFinal = maxAB > c ? maxAB : c;
+            return maxFinal;
+        };
+
+    console.log(`El valor maxim dels números (3, 8 i 5) es: ${trobarMaxim(3, 8, 5)}`);
 
 // EXERCICI 4
     // Funció de fletxa dins d'un loop:
