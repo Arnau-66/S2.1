@@ -51,6 +51,9 @@
     console.log(`Array inicial: `, array5);
     console.log(`Resultat final: ${finalResult(array5)}`);
 
+// EXERCICI 6
+    // Every / Some: 
+    // Usa every i some per a determinar si tots o alguns dels elements de l'array [11, 12, 13, 14] són majors que 10, respectivament
 
     
 
