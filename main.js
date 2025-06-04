@@ -56,6 +56,7 @@
 
     const [firstElement, secondElement, ...rest] = array4;
 
+    console.log(`Tenint el array: [${array4}]: `)
     console.log('Primer element:', firstElement);
     console.log('Segon element:', secondElement);
     console.log('Resta dels elements:', rest);
