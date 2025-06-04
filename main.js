@@ -60,19 +60,6 @@
     parOImpar([1, 2, 3,]);
 
 
-// EXERCICI 5
-    // Funció de fletxa amb 'setTimeout':
-    // Crea una funció de fletxa que imprimeixi un missatge a la consola després d'esperar 3 segons.
-    
-    const delayedMessage = () => {
-    setTimeout(() => {
-        console.log("Missatge imprès després de 3 segons!");
-    }, 3000);
-    };
-
-    console.log(`Espera 3 segons:`);
-    delayedMessage();
-
 
 
 
