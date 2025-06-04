@@ -35,7 +35,7 @@
 
     const esperarISaludar = (name, callback) => {
         setTimeout(() => {
-                callback(name);
+                callback2(name);
             }, 2000);
         };
 
@@ -43,7 +43,6 @@
         console.log(`Hola, ${name}!`);
         };
 
-    console.log(`Espera 3 segons: `);
     esperarISaludar('Arnau', callback2);
 
 
@@ -51,6 +50,22 @@
     // Callbacks amb arrays:
     // Escriu una funció processarElements que accepti dos paràmetres: un array i una funció de callback.
     // La funció processarElements ha d'invocar la funció de callback per cada element de l'array.
+    
+    const processarElements = (array, callback4) => {
+            array.forEach(element => {
+                callback4(element);
+            });
+        };
+
+    let count = 1;
+    
+    const callback4= (element) => {
+        console.log(`Element ${count}: ${element}`);
+        count++;
+        };
+
+    console.log(`Llistat d'elements: `)
+    processarElements([1, 2, 3, 4, 5], callback4);
 
 
 
