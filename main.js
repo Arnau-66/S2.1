@@ -1,17 +1,15 @@
 // EXERCICI 1 
-    // Callback bàsic:
-    // Escriu una funció anomenada processar que accepti dos paràmetres: un nombre i una funció de callback.
-    // La funció processar ha d'invocar la funció de callback, passant el nombre com a paràmetre.
+    // Operador Spread en Arrays: Crea dues arrays, array1 i array2.
+    // Utilitza l'operador spread per a crear una tercera array que contingui tots els elements de array1 i array2.
 
-    const processar = (nombre, callback) => {
-        callback(nombre);
-        };
+        
+    const array1 = [1, 2, 3];
+    const array2 = [4, 5, 6];
 
-    const callback = (nombre) => {
-        console.log(`El nombre és: ${nombre}`);
-        };
+    const array3 = [...array1, ...array2];
 
-    processar(42, callback);
+    console.log('Array combinat:', array3);
+
 
 // EXERCICI 2
     // Callbacks amb operacions matemàtiques:
