@@ -18,7 +18,7 @@
     let num1 = 10;
     let num2 = 5;
 
-    let result2 = num1 > num2 ? 'num1 és més gran' : 'num2 és més gran';
+    let result2 = num1 > num2 ? `num1 (${num1}) és més gran que num2 (${num2})` : `num2 (${num2}) és més gran que num1 (${num1})`;
 
     console.log(`Quin número es el més gran?: ${result2}`);
 
