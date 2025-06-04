@@ -1,12 +1,14 @@
 // EXERCICI 1 
-    // Conversió de funcions: Tens una funció add que accepta dos paràmetres i retorna la seva suma.
-    // Converteix-la en una funció de fletxa. Per exemple: function add(a, b) {return a + b;}.
+    // Operador ternari bàsic:
+    // Escriu una funció potConduir que accepti l'edat com a paràmetre i utilitzi l'operador ternari per determinar si l'usuari pot conduir.
+    // Si l'edat és 18 o més, ha de retornar 'Pots conduir'. Si no, ha de retornar 'No pots conduir'.
 
-    const add = (a, b) => a + b;
+    const potConduir = (edat) => {
+    return edat >= 18 ? 'Pots conduir' : 'No pots conduir';
+    };
 
-    
-
-
+    console.log(`Edat 20 anys: ${potConduir(20)}`);
+    console.log(`Edat 20 anys: ${potConduir(16)}`); 
 
 // EXERCICI 2
     // Funció de fletxa sense paràmetres:
