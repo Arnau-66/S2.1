@@ -13,10 +13,8 @@
     // Crea una funció de fletxa anomenada randomNumber que no necessiti paràmetres i que retorni un número aleatori entre 0 i 100.
 
     const randomNumber = () => Math.floor(Math.random() * 101);
-
-
-
-
+    const result = randomNumber();
+    console.log(`Número aleatori: ${result}`);
 
 // EXERCICI 3
     // Ús de 'this' en les funcions de fletxa:
@@ -36,24 +34,16 @@
     const person1 = new Person("Arnau");
     person1.greet();
 
-
-
-
-
 // EXERCICI 4
     // Funció de fletxa dins d'un loop:
     // Crea una funció anomenada printNumbers que accepti un array de números i utilitzi un loop for per imprimir cada número a la consola utilitzant una funció de fletxa.
 
     const printNumbers = (numbers) => {
-    numbers.forEach(number => console.log(number));
-    };
-
-
+        numbers.forEach(number => console.log(number));
+        };
+    
+    console.log(`Print numbers: `);
     printNumbers([1, 2, 3, 4, 5]);
-
-
-
-
 
 // EXERCICI 5
     // Funció de fletxa amb 'setTimeout':
