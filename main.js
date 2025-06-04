@@ -29,7 +29,6 @@
     // Operador ternari amb funcions:
     // Crea una funció trobarMaxim que accepti tres paràmetres (a, b, c) i utilitzi l'operador ternari per determinar el valor màxim.
 
-
     let num = -5;
 
     let result3 = num > 0 ? 'positiu' : num < 0 ? 'negatiu' : 'zero';
