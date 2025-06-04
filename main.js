@@ -48,25 +48,18 @@
 
 
 // EXERCICI 4
-    // Callbacks amb arrays:
-    // Escriu una funció processarElements que accepti dos paràmetres: un array i una funció de callback.
-    // La funció processarElements ha d'invocar la funció de callback per cada element de l'array.
+    // Rest en Destructuring:
+    // Crea una array amb diversos elements.
+    // Utilitza destructuring i l'operador rest per a assignar els primers dos elements a variables, i després assignar la resta dels elements a una tercera variable.
     
-    const processarElements = (array, callback4) => {
-            array.forEach(element => {
-                callback4(element);
-            });
-        };
+    const array4 = [1, 2, 3, 4, 5];
 
-    let count = 1;
+    const [firstElement, secondElement, ...rest] = array4;
 
-    const callback4= (element) => {
-        console.log(`Element ${count}: ${element}`);
-        count++;
-        };
+    console.log('Primer element:', firstElement);
+    console.log('Segon element:', secondElement);
+    console.log('Resta dels elements:', rest);
 
-    console.log(`Llistat d'elements: `)
-    processarElements([1, 2, 3, 4, 5], callback4);
 
 // EXERCICI 5
     // Escriu una funció processarCadena que accepti dos paràmetres: una cadena de caràcters i una funció de callback.
