@@ -8,7 +8,7 @@
 
     const array3 = [...array1, ...array2];
 
-    console.log('Array combinat:', array3);
+    console.log(`Array combinat: ${array3}`);
 
 
 // EXERCICI 2
@@ -24,7 +24,7 @@
         return total;
         };
 
-    console.log(suma(1, 2, 3, 4, 5));
+    console.log(`La suma de tots els elements de l'array es: ${suma(1, 2, 3, 4, 5)}`);
 
 
 // EXERCICI 3
