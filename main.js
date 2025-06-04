@@ -33,17 +33,18 @@
     // Després crea un segon objecte, 'objecte2', que sigui una còpia de 'objecte1' utilitzant l'operador spread.
     // Canvia una propietat de 'objecte2' i comprova que 'objecte1' no ha canviat.
 
-    const esperarISaludar = (name, callback) => {
-        setTimeout(() => {
-                callback2(name);
-            }, 2000);
+    const objecte1 = {
+        name: 'Arnau',
+        age: 25
         };
 
-    const callback2 = (name) => {
-        console.log(`Missatge després de 2 segons: Hola, ${name}!`);
-        };
+    const objecte2 = { ...objecte1 };
 
-    esperarISaludar('Arnau', callback2);
+    objecte2.age = 37;
+
+    console.log('Objecte 1:', objecte1);
+    console.log('Objecte 2:', objecte2); 
+
 
 
 // EXERCICI 4
