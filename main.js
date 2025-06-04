@@ -8,7 +8,7 @@
         };
 
     console.log(`Edat 20 anys: ${potConduir(20)}`);
-    console.log(`Edat 20 anys: ${potConduir(16)}`); 
+    console.log(`Edat 16 anys: ${potConduir(16)}`); 
 
 // EXERCICI 2
     // Ús amb operadors de comparació:
