@@ -16,7 +16,12 @@
     // Filter: Teniu una array de números [1, 2, 3, 4].
     // Crea una nova array que només contingui els números parells.
 
-    
+    const array2 = [1, 2, 3, 4];
+    const evenArray2 = array2.filter(num => num % 2 === 0);
+
+    console.log(`Array inicial: `, array2);
+    console.log(`Array de números parells: ` , evenArray2);
+
 
 
 
