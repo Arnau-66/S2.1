@@ -67,6 +67,17 @@
     // Crea una funció que accepti tres arguments.
     // Després, crea una array amb tres elements i crida la funció utilitzant l'operador spread amb aquesta array.
 
+    const printFunction = (a, b, c) => {
+        console.log(`Els tres valors són: ${a}, ${b}, ${c}`);
+        };
+
+    const array5 = [10, 20, 30];
+    
+    console.log(`Tenint l'array [${array5}]: `);
+    printFunction(...array5);
+
+// EXERCICI 6
+    // 
 
 
 
