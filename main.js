@@ -40,7 +40,7 @@
         };
 
     const callback2 = (name) => {
-        console.log(`Hola, ${name}!`);
+        console.log(`Missatge després de 2 segons: Hola, ${name}!`);
         };
 
     esperarISaludar('Arnau', callback2);
@@ -58,7 +58,7 @@
         };
 
     let count = 1;
-    
+
     const callback4= (element) => {
         console.log(`Element ${count}: ${element}`);
         count++;
@@ -66,6 +66,23 @@
 
     console.log(`Llistat d'elements: `)
     processarElements([1, 2, 3, 4, 5], callback4);
+
+// EXERCICI 5
+    // Escriu una funció processarCadena que accepti dos paràmetres: una cadena de caràcters i una funció de callback.
+    // La funció processarCadena ha de convertir la cadena a majúscules i llavors invocar la funció de callback amb la cadena transformada.
+
+    const processarCadena = (chain, callback5) => {
+        let upperCaseChain = chain.toUpperCase();
+        callback5(upperCaseChain);
+        };
+
+    const callback5 = (upperCaseChain) => {
+        console.log(`La cadena transformada és: ${upperCaseChain}`);
+        };
+
+    console.log(`La cadena és: Hola món`);
+    processarCadena('hola món', callback5);
+
 
 
 
