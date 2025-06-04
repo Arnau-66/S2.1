@@ -28,10 +28,6 @@
     console.log(`Array inicial: `, array3);
     console.log('Primer número major que 10:', numberBiggerThan10);
 
-
-
-
-
 // EXERCICI 4
     // Reduce: Teniu una array de números [13, 7, 8, 21].
     // Fes servir la funció reduce per a calcular la suma total dels números.
