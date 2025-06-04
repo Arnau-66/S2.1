@@ -63,20 +63,11 @@
 
 
 // EXERCICI 5
-    // Escriu una funció processarCadena que accepti dos paràmetres: una cadena de caràcters i una funció de callback.
-    // La funció processarCadena ha de convertir la cadena a majúscules i llavors invocar la funció de callback amb la cadena transformada.
+    // Spread en Funcions:
+    // Crea una funció que accepti tres arguments.
+    // Després, crea una array amb tres elements i crida la funció utilitzant l'operador spread amb aquesta array.
 
-    const processarCadena = (chain, callback5) => {
-        let upperCaseChain = chain.toUpperCase();
-        callback5(upperCaseChain);
-        };
 
-    const callback5 = (upperCaseChain) => {
-        console.log(`La cadena transformada és: ${upperCaseChain}`);
-        };
-
-    console.log(`La cadena és: Hola món`);
-    processarCadena('hola món', callback5);
 
 
 
