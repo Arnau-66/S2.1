@@ -12,19 +12,20 @@
 
 
 // EXERCICI 2
-    // Callbacks amb operacions matemàtiques:
-    // Escriu una funció calculadora que accepti tres paràmetres: dos nombres i una funció de callback.
-    // La funció calculadora ha d'invocar la funció de callback amb els dos nombres com a paràmetres.
-    // Després, crida calculadora amb una funció que faci la suma dels dos nombres.
+    // Operador Rest en Funcions:
+    // Crea una funció 'suma' que utilitzi l'operador rest per a acceptar un nombre indeterminat d'arguments i retornar la seva suma.
 
-    const calculadora = (nombre1, nombre2, callback) => {
-        return callback(nombre1, nombre2);
+    
+    const suma = (...args) => {
+        let total = 0;
+        args.forEach(num => {
+                total += num;
+            });
+        return total;
         };
 
-    const sumar = (a, b) => a + b;
+    console.log(suma(1, 2, 3, 4, 5));
 
-    let result2 = calculadora(15, 27, sumar);
-    console.log(`La suma és: ${result2}`);
 
 // EXERCICI 3
     // Ús de callbacks en funcions asíncrones:
