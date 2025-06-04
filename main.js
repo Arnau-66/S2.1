@@ -1,14 +1,17 @@
 // EXERCICI 1 
-    // Operador ternari bàsic:
-    // Escriu una funció potConduir que accepti l'edat com a paràmetre i utilitzi l'operador ternari per determinar si l'usuari pot conduir.
-    // Si l'edat és 18 o més, ha de retornar 'Pots conduir'. Si no, ha de retornar 'No pots conduir'.
+    // Callback bàsic:
+    // Escriu una funció anomenada processar que accepti dos paràmetres: un nombre i una funció de callback.
+    // La funció processar ha d'invocar la funció de callback, passant el nombre com a paràmetre.
 
-    const potConduir = (age) => {
-        return age >= 18 ? 'Pots conduir' : 'No pots conduir';
+    const processar = (nombre, callback) => {
+        callback(nombre);
         };
 
-    console.log(`Edat 20 anys: ${potConduir(20)}`);
-    console.log(`Edat 16 anys: ${potConduir(16)}`); 
+    const callback = (nombre) => {
+        console.log(`El nombre és: ${nombre}`);
+        };
+
+    processar(42, callback);
 
 // EXERCICI 2
     // Ús amb operadors de comparació:
