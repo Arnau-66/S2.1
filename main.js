@@ -45,15 +45,20 @@
     console.log(`El valor maxim dels números (3, 8 i 5) es: ${trobarMaxim(3, 8, 5)}`);
 
 // EXERCICI 4
-    // Funció de fletxa dins d'un loop:
-    // Crea una funció anomenada printNumbers que accepti un array de números i utilitzi un loop for per imprimir cada número a la consola utilitzant una funció de fletxa.
+    // Operador ternari dins un bucle:
+    // Escriu una funció parOImpar que accepti un array de números i utilitzi un bucle per a recórrer l'array.
+    // Dins del bucle, utilitza l'operador ternari per a determinar si cada número és parell o imparell.
 
-    const printNumbers = (numbers) => {
-        numbers.forEach(number => console.log(number));
+    const parOImpar = (array) => {
+        console.log(`Analitza els següents números: `);
+        array.forEach(num => {
+            let result4 = num % 2 === 0 ? 'parell' : 'senar';
+            console.log(`${num} és ${result4}`);
+        });
         };
-    
-    console.log(`Print numbers: `);
-    printNumbers([1, 2, 3, 4, 5]);
+
+    parOImpar([1, 2, 3,]);
+
 
 // EXERCICI 5
     // Funció de fletxa amb 'setTimeout':
