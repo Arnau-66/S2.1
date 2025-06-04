@@ -29,39 +29,28 @@
     console.log(`La suma és: ${result2}`);
 
 // EXERCICI 3
-    // Ús enllaçat d'operadors ternaris:
-    // Escriu una expressió que utilitzi enllaços d'operadors ternaris per determinar si un número és positiu, negatiu o zero.
-    // Operador ternari amb funcions:
-    // Crea una funció trobarMaxim que accepti tres paràmetres (a, b, c) i utilitzi l'operador ternari per determinar el valor màxim.
+    // Ús de callbacks en funcions asíncrones:
+    // Escriu una funció esperarISaludar que accepti dos paràmetres: un nom i una funció de callback.
+    // La funció ha d'esperar 2 segons i llavors invocar la funció de callback, passant el nom com a paràmetre.
 
-    let num = -5;
-
-    let result3 = num > 0 ? 'positiu' : num < 0 ? 'negatiu' : 'zero';
-
-    console.log(`El número (-5) es: ${result3}`);
-
-    const trobarMaxim = (a, b, c) => {
-            let maxAB = a > b ? a : b;
-            let maxFinal = maxAB > c ? maxAB : c;
-            return maxFinal;
+    const esperarISaludar = (name, callback) => {
+        setTimeout(() => {
+                callback(name);
+            }, 2000);
         };
 
-    console.log(`El valor maxim dels números (3, 8 i 5) es: ${trobarMaxim(3, 8, 5)}`);
+    const callback2 = (name) => {
+        console.log(`Hola, ${name}!`);
+        };
+
+    console.log(`Espera 3 segons: `);
+    esperarISaludar('Arnau', callback2);
+
 
 // EXERCICI 4
-    // Operador ternari dins un bucle:
-    // Escriu una funció parOImpar que accepti un array de números i utilitzi un bucle per a recórrer l'array.
-    // Dins del bucle, utilitza l'operador ternari per a determinar si cada número és parell o imparell.
-
-    const parOImpar = (array) => {
-        console.log(`Analitza els següents números: `);
-        array.forEach(num => {
-            let result4 = num % 2 === 0 ? 'parell' : 'senar';
-            console.log(`${num} és ${result4}`);
-        });
-        };
-
-    parOImpar([1, 2, 3,]);
+    // Callbacks amb arrays:
+    // Escriu una funció processarElements que accepti dos paràmetres: un array i una funció de callback.
+    // La funció processarElements ha d'invocar la funció de callback per cada element de l'array.
 
 
 
