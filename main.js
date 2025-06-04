@@ -81,7 +81,6 @@
     // Crea dos objectes amb propietats diferents.
     // Utilitza l'operador spread per a fusionar aquests dos objectes en un de nou.
 
-    
     const object1 = { name: 'Arnau', age: 25 };
     const object2 = { city: 'Barcelona', country: 'Espanya' };
 
