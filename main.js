@@ -11,12 +11,17 @@
     console.log(`Edat 20 anys: ${potConduir(16)}`); 
 
 // EXERCICI 2
-    // Funció de fletxa sense paràmetres:
-    // Crea una funció de fletxa anomenada randomNumber que no necessiti paràmetres i que retorni un número aleatori entre 0 i 100.
+    // Ús amb operadors de comparació:
+    // Escriu una expressió que utilitzi l'operador ternari per determinar quin dels dos nombres donats (num1 i num2) és més gran.
+    // Si num1 és més gran, retorna 'num1 és més gran'. Si no, retorna 'num2 és més gran'.
 
-    const randomNumber = () => Math.floor(Math.random() * 101);
-    const result = randomNumber();
-    console.log(`Número aleatori: ${result}`);
+    let num1 = 10;
+    let num2 = 5;
+
+    let resultat = num1 > num2 ? 'num1 és més gran' : 'num2 és més gran';
+
+    console.log(`Quin número es el més gran?: ${resultat}`);
+
 
 // EXERCICI 3
     // Ús de 'this' en les funcions de fletxa:
