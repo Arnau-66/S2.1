@@ -28,8 +28,6 @@
     let result2 = calculadora(15, 27, sumar);
     console.log(`La suma és: ${result2}`);
 
-
-
 // EXERCICI 3
     // Ús enllaçat d'operadors ternaris:
     // Escriu una expressió que utilitzi enllaços d'operadors ternaris per determinar si un número és positiu, negatiu o zero.
