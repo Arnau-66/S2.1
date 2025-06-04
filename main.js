@@ -28,9 +28,10 @@
 
 
 // EXERCICI 3
-    // Ús de callbacks en funcions asíncrones:
-    // Escriu una funció esperarISaludar que accepti dos paràmetres: un nom i una funció de callback.
-    // La funció ha d'esperar 2 segons i llavors invocar la funció de callback, passant el nom com a paràmetre.
+    // Copiant objectes amb Spread:
+    // Crea un objecte 'objecte1'.
+    // Després crea un segon objecte, 'objecte2', que sigui una còpia de 'objecte1' utilitzant l'operador spread.
+    // Canvia una propietat de 'objecte2' i comprova que 'objecte1' no ha canviat.
 
     const esperarISaludar = (name, callback) => {
         setTimeout(() => {
