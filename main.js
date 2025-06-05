@@ -27,7 +27,14 @@
     // Utilitza filter per a crear una nova array que només contingui els números parells.
     // let numeros = [1, 2, 3, 4, 5, 6];
 
-    
+    let numeros = [1, 2, 3, 4, 5, 6];
+
+    let evenNumbers = numeros.filter(num => num % 2 === 0);
+
+    console.log(`Array incial: `, numeros);
+    console.log('Números parells:', evenNumbers);
+
+
 
 
 
