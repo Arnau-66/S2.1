@@ -16,6 +16,14 @@
     // for-of: Teniu una array de noms.
     // Utilitza un bucle for-of per a imprimir cada nom a la consola: let noms = ['Anna', 'Bernat', 'Clara'];
 
+    let array2 = ['Anna', 'Bernat', 'Clara'];
+
+    console.log(`Array inicial: `, array2);
+    for (let name of array2) {
+        console.log(name);
+        }
+
+
 
     
 
