@@ -4,7 +4,7 @@
 
     const promise1 = new Promise((resolve) => {
         setTimeout(() => {
-                resolve(console.log('Hola, món'));
+                resolve('Hola, món');
             }, 2000);
         });
 
@@ -13,7 +13,11 @@
     // Utilitza la promesa creada en l'exercici anterior.
     // Crea un .then que imprimeixi el resultat a la consola.
     
-            
+    promise1.then(result=> {
+        console.log(`Resultat exercici 2: `);
+        console.log(result);
+        });
+
 
 
 
