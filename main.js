@@ -55,6 +55,15 @@
     // Every / Some: 
     // Usa every i some per a determinar si tots o alguns dels elements de l'array [11, 12, 13, 14] són majors que 10, respectivament
 
+    const array6 = [11, 12, 13, 14];
+
+    const array6AllTen = array6.every(num => num > 10);
+    const array6OneTen = array6.some(num => num > 10);
+
+    console.log(`Array inicial: `, array6);
+    console.log('Tots són majors que 10?', array6AllTen);
+    console.log('Algun és major que 10?', array6OneTen);
+
     
 
 
