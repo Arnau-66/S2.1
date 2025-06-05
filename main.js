@@ -39,6 +39,20 @@
     // let obj = { nom: Ona, edat: 25, ciutat: 'Barcelona' };
     // Utilitza un bucle for-in per a imprimir a la consola cada clau i el seu valor corresponent.
 
+    let obj = {
+        nom: 'Ona',
+        edat: 25,
+        ciutat: 'Barcelona'
+        };
+
+
+    console.log(`Objecte inicial: `, obj);
+    for (let key in obj) {
+        console.log(`${key}: ${obj[key]}`);
+        }
+
+
+
 
 
 
