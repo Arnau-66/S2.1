@@ -56,6 +56,36 @@
     // Gestió d'errors amb async/await:
     // Modifica la funció de l'exercici 4 per a que capturi qualsevol possible error utilitzant un bloc try/catch.
 
+    const validMessage = `Hola, món`;
+    const invalidMessage = `Adeu, món`;
+
+    const checkInputs5 = (input) => {
+        return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    if (input === validMessage) {
+                        resolve('Input correcte');
+                        } else {
+                                reject('Input incorrecte');
+                            }
+                }, 2000);
+        });
+    };
+
+    const checkPromise5 = async (input) => {
+    try {
+        const result = await checkInputs5(input);
+        console.log('Hola, món: ', result);
+
+    } catch (error) {
+        console.log(`Adeu, món: `, error);
+    }
+    };
+
+    checkPromise5(validMessage);
+    checkPromise5(invalidMessage); 
+
+
+
 
 
 
