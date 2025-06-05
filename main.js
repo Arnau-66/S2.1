@@ -36,11 +36,14 @@
 
     checkWord('Hola')
     .then(result => console.log(`Hola: `, result));
-    
+
     checkWord('Adeu')
     .catch(error => console.log(`Adeu: `, error));
 
-
+// EXERCICI 4
+    // Ús de async/await:
+    // Escriu una funció asíncrona que utilitzi la funció await per a esperar el resultat de la promesa creada a l'exercici 1
+    // i que després imprimeixi aquest resultat a la consola.
 
 
 
