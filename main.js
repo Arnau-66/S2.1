@@ -56,6 +56,21 @@
     // Utilitza un bucle for-of per a imprimir a la consola els números fins a trobar el número 5, llavors atura el bucle:
     // let numeros = [1, 2, 3, 4, 5, 6];
 
+    let array5 = [1, 2, 3, 4, 5, 6];
+    let count = -1;
+
+
+    console.log(`Objecte inicial: `, array5);
+    console.log('For-of: ');
+    for (let num of array5) {
+        console.log(num);
+        count++;
+        if (num === 5) {
+            console.log(`El bucle s'ha aturat en la posició: `, count);
+            break;
+            }
+        }
+
 
 
 
