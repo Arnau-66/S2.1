@@ -82,7 +82,35 @@
     };
 
     checkPromise5(validMessage);
-    checkPromise5(invalidMessage); 
+    checkPromise5(invalidMessage);
+
+// EXERCICI 6
+    // Promise.all:
+    // Crea dues promeses que es resolguin després de 2 i 3 segons, respectivament.
+    // Utilitza Promise.all per a esperar que ambdues promeses es resolguin, i imprimeix els resultats a la consola.
+
+    const promise6 = new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(`Resultat de la promesa 1 (2 segons)`);
+        }, 2000);
+    });
+
+  
+    const promise7 = new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(`Resultat de la promesa 2 (3 segons)`);
+        }, 3000);
+    });
+
+    Promise.all([promise6, promise7])
+        .then(resultats => {
+            console.log(`Totes les promeses s\'han resolt: `);
+            console.log(resultats);
+        })
+        .catch(error => {
+            console.log(`Hi ha hagut un error: `, error);
+        });
+
 
 
 
