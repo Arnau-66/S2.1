@@ -18,6 +18,29 @@
         console.log(result);
         });
 
+// EXERCICI 3
+    // Promesa amb reject:
+    // Crea una promesa que es resolgui després de 2 segons si l'input és igual a 'Hola', i que la rebutgi si l'input és qualsevol altra cosa.
+
+    const checkWord = (input) => {
+        return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    if (input === 'Hola') {
+                            resolve(`Input correcte`);
+                        } else {
+                            reject(`Input incorrecte`);
+                        }
+                    }, 2000);
+            });
+        };
+
+    checkWord('Hola')
+    .then(result => console.log(`Hola: `, result));
+    
+    checkWord('Adeu')
+    .catch(error => console.log(`Adeu: `, error));
+
+
 
 
 
