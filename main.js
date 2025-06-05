@@ -22,7 +22,7 @@
         console.log(name);
         }
 
-// Exercici 3
+// EXERCICI 3
     // filter: Teniu una array de números.
     // Utilitza filter per a crear una nova array que només contingui els números parells.
     // let numeros = [1, 2, 3, 4, 5, 6];
@@ -34,7 +34,7 @@
     console.log(`Array incial: `, numeros);
     console.log('Números parells:', evenNumbers);
 
-// Exercici 4
+// EXERCICI 4
     // for-in: Teniu un objecte amb parells clau-valor:
     // let obj = { nom: Ona, edat: 25, ciutat: 'Barcelona' };
     // Utilitza un bucle for-in per a imprimir a la consola cada clau i el seu valor corresponent.
@@ -50,6 +50,11 @@
     for (let key in obj) {
         console.log(`${key}: ${obj[key]}`);
         }
+
+// EXERCICI 5
+    // for-of amb break: Teniu una array de números.
+    // Utilitza un bucle for-of per a imprimir a la consola els números fins a trobar el número 5, llavors atura el bucle:
+    // let numeros = [1, 2, 3, 4, 5, 6];
 
 
 
