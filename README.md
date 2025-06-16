@@ -1,37 +1,18 @@
-# Repositorio del ejercicio S2.1 - Exercicis bàsics JavaScript
+# SPRINT 2.1 - BASIC JAVASCRIPT EXERCISES
 
-Este repositorio contiene los ejercicios básicos de JavaScript (S2.1). Está organizado en ramas para mantener el trabajo estructurado y ordenado:
+This repository contains the basic JavaScript exercises for Sprint 2.1. It is organized into branches to keep the project clean and structured:
 
-- **Rama principal**: `main`
-- **Subrama**: `developer` (deriva de `main`)
-- **Ramas de ejercicios**: `exercici1.1` hasta `exercici1.7` (derivan de `developer`)
+- **Main branch**: `main`  
+- **Sub-branch**: `developer` (derived from `main`)  
+- **Exercise branches**: from `exercici1.1` to `exercici1.7` (all derived from `developer`)
 
-Cada rama `exercici1.X` incluye:
+Each `exercici1.X` branch includes:
 - `index.html`
 - `style.css`
-- `main.js` (aquí están los enunciados y la resolución de los ejercicios)
+- `main.js` (which contains both the instructions and the solutions to the exercises)
 
-El objetivo de este proyecto es repasar conceptos de JavaScript y la creación de funciones para aplicarlas en siguientes ejercicios.
+The goal of this project is to review JavaScript fundamentals and practice writing functions to be applied in future exercises.
 
-🔎 **Para comprobar y/o corregir los ejercicios:**  
-Abre el archivo `index.html` en el navegador y despliega la consola de desarrollo con `F12` (Windows) o `Cmd + Option + J` (Mac).
+🔎 **To check and/or debug the exercises:**  
+Open the `index.html` file in the browser and open the developer console with `F12` (Windows) or `Cmd + Option + J` (Mac).
 
----
-
-## Català
-
-Aquest repositori conté els exercicis bàsics de JavaScript (S2.1). Està organitzat en branques per mantenir el treball estructurat i ordenat:
-
-- **Branca principal**: `main`
-- **Subbranca**: `developer` (deriva de `main`)
-- **Branques d'exercicis**: `exercici1.1` fins a `exercici1.7` (deriven de `developer`)
-
-Cada branca `exercici1.X` inclou:
-- `index.html`
-- `style.css`
-- `main.js` (amb els enunciats i la resolució dels exercicis)
-
-L'objectiu d'aquest projecte és repassar conceptes de JavaScript i la creació de funcions per aplicar-les en exercicis posteriors.
-
-🔎 **Per comprovar i/o corregir els exercicis:**  
-Obre l'arxiu `index.html` al navegador i desplega la consola de desenvolupament amb `F12` (Windows) o `Cmd + Option + J` (Mac).
