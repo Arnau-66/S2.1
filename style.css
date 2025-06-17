@@ -100,3 +100,11 @@ a:hover {
   font-family: monospace;
 }
 
+.nav-button-red {
+  background-color: #c2185b;
+  color: white;
+}
+
+.nav-button-red:hover {
+  background-color: #a3154d;
+}
