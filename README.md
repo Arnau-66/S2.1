@@ -4,19 +4,6 @@ This branch (`developer`) is the main working branch for Sprint 2.1 of the JavaS
 
 It contains the full structure of the project, including all individual exercises, centralized styles, and navigation logic.
 
-## 🔧 Structure
-S2/
-├── index.html ← Main menu linking to all exercises
-├── style.css ← Shared stylesheet
-├── exercicis/ ← Individual HTML pages for each exercise
-│ ├── exercici1.1.html
-│ ├── exercici1.2.html
-│ └── …
-└── js/ ← JavaScript files with the solutions
-├── main1.1.js
-├── main1.2.js
-└── …
-
 ## 📌 How it works
 
 - The project starts from `index.html`, which links to all exercise pages.
