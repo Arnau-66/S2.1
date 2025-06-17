@@ -15,18 +15,17 @@ Each `exercici1.X` branch includes the following structure:
 
 ## 📂 Project Structure
 
-/S2
+S2/
 ├── index.html
 ├── style.css
-├── /exercicis
-│ ├── exercici1.1.html
-│ ├── exercici1.2.html
-│ └── ...
-├── /js
-│ ├── main1.1.js
-│ ├── main1.2.js
-│ └── ...
-
+├── exercicis/
+│   ├── exercici1.1.html
+│   ├── exercici1.2.html
+│   └── …
+└── js/
+    ├── main1.1.js
+    ├── main1.2.js
+    └── …
 
 Each exercise HTML file (`exercici1.X.html`) contains:
 
