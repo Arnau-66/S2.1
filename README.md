@@ -15,18 +15,6 @@ Each `exercici1.X` branch includes the following structure:
 
 ## 📂 Project Structure
 
-S2/
-├── index.html
-├── style.css
-├── exercicis/
-│   ├── exercici1.1.html
-│   ├── exercici1.2.html
-│   └── …
-└── js/
-    ├── main1.1.js
-    ├── main1.2.js
-    └── …
-
 Each exercise HTML file (`exercici1.X.html`) contains:
 
 - A heading (`<h1>`) and a short description.
@@ -34,7 +22,7 @@ Each exercise HTML file (`exercici1.X.html`) contains:
 - A navigation block at the bottom with buttons:
   - **Inici** → returns to the main `index.html`
   - **Següent** / **Anterior** → to go forward or backward through exercises.
-  - The final navigation button (like "Tornar a l'inici") is highlighted in a reddish color matching the exercise headings (`#c2185b`).
+  - The final navigation button (like **Tornar a l'inici**) is highlighted in a reddish color matching the exercise headings (`#c2185b`).
 
 ## 🚀 Exercise Flow
 
